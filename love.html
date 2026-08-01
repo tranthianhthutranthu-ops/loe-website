@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>For You ❤️</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+overflow:hidden;
+background:#02040d;
+}
+
+canvas{
+position:fixed;
+left:0;
+top:0;
+}
+
+#text{
+position:absolute;
+left:50%;
+top:40%;
+transform:translate(-50%,-50%);
+font-size:60px;
+color:pink;
+font-family:cursive;
+text-shadow:0 0 30px hotpink;
+opacity:0;
+transition:2s;
+z-index:20;
+}
+
+#petals{
+position:fixed;
+width:100%;
+height:100%;
+pointer-events:none;
+}
+</style>
+
+</head>
+
+<body>
+
+<canvas id="canvas"></canvas>
+
+<div id="petals"></div>
+
+<div id="text">
+🌸Tháng 8 vuiiii nhá
+</div>
+
+<script src="love.js"></script>
+
+</body>
+</html>
